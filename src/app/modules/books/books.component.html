@@ -1,0 +1,14 @@
+<table class="table table-primary">
+    <thead>
+        <tr>
+            <th scope="col">S.No.</th>
+            <th scope="col">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let verse of verses">
+            <td>{{verse.number}}</td>
+            <td>{{verse.text}}</td>
+        </tr>
+    </tbody>
+</table>
