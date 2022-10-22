@@ -13,7 +13,7 @@ export class TokenInterceptor implements HttpInterceptor {
   constructor() {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
-    const API_KEY = '123456';
-    return next.handle(request.clone({ setHeaders: { API_KEY } }));
+    const TOKEN = '123456';
+    return next.handle(request.clone({ setHeaders: { TOKEN } }));
   }
 }
