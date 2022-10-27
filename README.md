@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## How To Start
 
-1) Clone Project
+1) Fork and Clone
 2) Run `npm i`
 3) Run `ng serve` and navigate to `http://localhost:4200/`
 
