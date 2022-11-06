@@ -15,3 +15,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3) Right now there is no loader. you will get blank table for few second
 4) Now you have to integrate `loader interceptor` so that loader will come 
 5) books.service.ts file should be map properly right now we are using `without model`
+
+## Reference 
+
+[Icon Bootstrap](https://icons.getbootstrap.com/)
+
+[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
